@@ -1,0 +1,24 @@
+.autoCompleteOffHelper {
+  /* color: white;
+  border: none;
+  background-color: white;
+  user-select: none;
+  outline: none; */
+  position: absolute;
+  top: -1000px;
+  left: 0;
+}
+.signup {
+  margin-top: 20px;
+}
+.toLogin {
+  position: relative;
+  top: 0;
+  left: 40%;
+}
+.signupForm {
+  margin-top: 20px;
+}
+.signupSubmit {
+  margin-top: 5px;
+}
