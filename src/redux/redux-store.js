@@ -1,8 +1,8 @@
 import { combineReducers, createStore } from "redux";
-import signupReducer from "./signup-reducer";
+import loginReducer from "./login-reducer";
 
 let reducers = combineReducers({
-  signupPage: signupReducer,
+  login: loginReducer,
 });
 
 let store = createStore(reducers);

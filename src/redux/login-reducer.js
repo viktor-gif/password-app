@@ -5,8 +5,6 @@ const SET_TIME_TYPING_SYMBOLS = "SET_TIME_TYPING_SYMBOLS";
 const CLEAR_TIMES_TYPING = "CLEAR_TIMES_TYPING";
 
 let initialState = {
-  // people: null,
-
   passwords: [
     { password: "38gg49", timeTyping: 4784 },
     { password: "ojgjs90", timeTyping: 3764 },
@@ -17,7 +15,7 @@ let initialState = {
   timesTyping: [],
 };
 
-const signupReducer = (state = initialState, action) => {
+const loginReducer = (state = initialState, action) => {
   switch (action.type) {
     case SET_PASSWORDS:
       return {
@@ -49,7 +47,7 @@ const signupReducer = (state = initialState, action) => {
       return state;
   }
 };
-//action-creaters
+//action-creators
 export const setPasswords = (password) => ({ type: SET_PASSWORDS, password });
 export const setUserPassword = (password) => ({
   type: SET_USER_PASSWORD,
@@ -65,4 +63,4 @@ export const setTimeTypingSymbols = (time) => ({
 });
 export const clearTimesTyping = () => ({ type: CLEAR_TIMES_TYPING });
 
-export default signupReducer;
+export default loginReducer;

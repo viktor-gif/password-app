@@ -1,23 +1,14 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {
   setPasswords,
   setTimeTypingSymbols,
   clearTimesTyping,
-} from "../../redux/signup-reducer";
+} from "../../redux/login-reducer";
 import { connect } from "react-redux";
 import { compose } from "redux";
 import Signup from "./signup";
 
 class SignupContainer extends React.Component {
-  // componentDidMount() {
-  //   this.props.setLoginData({ login: "lssfjf", password: 359349639 });
-  // }
-  // componentDidUpdate(prevProps) {
-  //   debugger;
-  //   if (prevProps.loginData !== this.props.loginData) {
-  //     this.props.setLoginData({ login: "lssfjf", password: 359349639 });
-  //   }
-  // }
   render() {
     return (
       <Signup
@@ -33,8 +24,8 @@ class SignupContainer extends React.Component {
 
 let mapStateToProps = (state) => {
   return {
-    passwords: state.signupPage.passwords,
-    timesTyping: state.signupPage.timesTyping,
+    passwords: state.login.passwords,
+    timesTyping: state.login.timesTyping,
   };
 };
 

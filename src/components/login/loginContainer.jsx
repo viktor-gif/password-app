@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {
   setUserPassword,
   setIsLoggedIn,
   setTimeTypingSymbols,
   clearTimesTyping,
-} from "../../redux/signup-reducer";
+} from "../../redux/login-reducer";
 import { connect } from "react-redux";
 import { compose } from "redux";
 import Login from "./login";
@@ -28,10 +28,10 @@ class LoginContainer extends React.Component {
 
 let mapStateToProps = (state) => {
   return {
-    passwords: state.signupPage.passwords,
-    userPassword: state.signupPage.userPassword,
-    isLoggedIn: state.signupPage.isLoggedIn,
-    timesTyping: state.signupPage.timesTyping,
+    passwords: state.login.passwords,
+    userPassword: state.login.userPassword,
+    isLoggedIn: state.login.isLoggedIn,
+    timesTyping: state.login.timesTyping,
   };
 };
 

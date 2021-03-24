@@ -21,7 +21,7 @@ const NavBar = (props) => {
 
 const mapStateToProps = (state) => {
   return {
-    isLoggedIn: state.signupPage.isLoggedIn,
+    isLoggedIn: state.login.isLoggedIn,
   };
 };
 

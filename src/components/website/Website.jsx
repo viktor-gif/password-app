@@ -14,7 +14,7 @@ class Website extends React.Component {
 
 const mapStateToProps = (state) => {
   return {
-    isLoggedIn: state.signupPage.isLoggedIn,
+    isLoggedIn: state.login.isLoggedIn,
   };
 };
 

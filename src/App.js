@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Website from "./components/website/Website";
 import store from "./redux/redux-store";
