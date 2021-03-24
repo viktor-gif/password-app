@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/password-app/static/css/main.35229449.chunk.css",
-    "main.js": "/password-app/static/js/main.2c5ccd7b.chunk.js",
-    "main.js.map": "/password-app/static/js/main.2c5ccd7b.chunk.js.map",
+    "main.css": "/password-app/static/css/main.6db1ebd1.chunk.css",
+    "main.js": "/password-app/static/js/main.8d7ff77c.chunk.js",
+    "main.js.map": "/password-app/static/js/main.8d7ff77c.chunk.js.map",
     "runtime-main.js": "/password-app/static/js/runtime-main.2c614ece.js",
     "runtime-main.js.map": "/password-app/static/js/runtime-main.2c614ece.js.map",
-    "static/js/2.16cd0856.chunk.js": "/password-app/static/js/2.16cd0856.chunk.js",
-    "static/js/2.16cd0856.chunk.js.map": "/password-app/static/js/2.16cd0856.chunk.js.map",
+    "static/js/2.a5fafcac.chunk.js": "/password-app/static/js/2.a5fafcac.chunk.js",
+    "static/js/2.a5fafcac.chunk.js.map": "/password-app/static/js/2.a5fafcac.chunk.js.map",
     "static/js/3.3fabe755.chunk.js": "/password-app/static/js/3.3fabe755.chunk.js",
     "static/js/3.3fabe755.chunk.js.map": "/password-app/static/js/3.3fabe755.chunk.js.map",
     "index.html": "/password-app/index.html",
-    "static/css/main.35229449.chunk.css.map": "/password-app/static/css/main.35229449.chunk.css.map",
-    "static/js/2.16cd0856.chunk.js.LICENSE.txt": "/password-app/static/js/2.16cd0856.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/password-app/static/media/logo.6ce24c58.svg"
+    "static/css/main.6db1ebd1.chunk.css.map": "/password-app/static/css/main.6db1ebd1.chunk.css.map",
+    "static/js/2.a5fafcac.chunk.js.LICENSE.txt": "/password-app/static/js/2.a5fafcac.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2c614ece.js",
-    "static/js/2.16cd0856.chunk.js",
-    "static/css/main.35229449.chunk.css",
-    "static/js/main.2c5ccd7b.chunk.js"
+    "static/js/2.a5fafcac.chunk.js",
+    "static/css/main.6db1ebd1.chunk.css",
+    "static/js/main.8d7ff77c.chunk.js"
   ]
 }
